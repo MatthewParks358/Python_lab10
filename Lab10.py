@@ -8,7 +8,7 @@ KNOWN_DEVICES = {
     "moto e": "38:E3:9F:CB:FD:96"
 }
 
-#test
+#test2
 
 async def scan_for_devices():
     print("Scanning for Bluetooth devices...")
