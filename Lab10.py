@@ -8,6 +8,8 @@ KNOWN_DEVICES = {
     "moto e": "38:E3:9F:CB:FD:96"
 }
 
+#test
+
 async def scan_for_devices():
     print("Scanning for Bluetooth devices...")
     devices = await BleakScanner.discover(5.0)
